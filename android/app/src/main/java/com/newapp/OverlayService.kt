@@ -29,7 +29,7 @@ class OverlayService : Service() {
 
         // Create and add a TextView
         val textView = TextView(this)
-        textView.text = "Overlay message here"
+        textView.text = "Incoming Call Detected"
         overlayView.addView(textView)
 
         // Create and add a Button to close the overlay

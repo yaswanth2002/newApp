@@ -11,6 +11,7 @@ const App = () => {
       if (!canDraw) {
         OverlayModule.requestOverlayPermission();
       } else {
+        // Delay starting the overlay service by 6 seconds (6000 milliseconds)
         OverlayModule.startOverlayService();
       }
     };
@@ -19,6 +20,7 @@ const App = () => {
   }, []);
 
   const startService = () => {
+    // Delay starting the overlay service by 6 seconds (6000 milliseconds)
     OverlayModule.startOverlayService();
   };
 
